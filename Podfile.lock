@@ -15,14 +15,26 @@ PODS:
   - OHHTTPStubs/Swift (9.1.0):
     - OHHTTPStubs/Default
   - Quick (7.2.0)
-  - SwiftLint (0.52.4)
+  - RxBlocking (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxTest (6.5.0):
+    - RxSwift (= 6.5.0)
 
 DEPENDENCIES:
   - Alamofire
   - Nimble
   - OHHTTPStubs/Swift
   - Quick
-  - SwiftLint
+  - RxBlocking
+  - RxCocoa
+  - RxSwift
+  - RxTest
 
 SPEC REPOS:
   trunk:
@@ -30,15 +42,23 @@ SPEC REPOS:
     - Nimble
     - OHHTTPStubs
     - Quick
-    - SwiftLint
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
 
 SPEC CHECKSUMS:
   Alamofire: 0123a34370cb170936ae79a8df46cc62b2edeb88
   Nimble: d67da24eb9da4227b2dbbf4eb49cc29073c9066b
   OHHTTPStubs: 90eac6d8f2c18317baeca36698523dc67c513831
   Quick: 73ac215f23a6a0eaa59f4ee142802b3f4dba86bb
-  SwiftLint: 1cc5cd61ba9bacb2194e340aeb47a2a37fda00b3
+  RxBlocking: 04b5fd28bb5ea49f7d64b80db8bbfe50d9cc1c7d
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
 
-PODFILE CHECKSUM: fb24eab72fb11d651bee56610794278a53443c58
+PODFILE CHECKSUM: c53038fae7abd874f68ad7177198f0bd93e49d20
 
 COCOAPODS: 1.12.1
